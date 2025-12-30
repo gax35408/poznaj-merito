@@ -1,0 +1,9 @@
+input.letter{
+    max-width: 50px;
+    color: #fff;
+    text-decoration: underline;
+    caret-color: #fff;
+}
+input.letter:focus-visible{
+    outline: none;
+}

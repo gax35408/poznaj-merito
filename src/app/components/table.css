@@ -1,0 +1,61 @@
+.overflow-table{
+    overflow-y: auto;
+    overflow-x: auto;
+    max-height: 90vh;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    scrollbar-width: none!important;
+}
+
+table.own-table{
+    /* overflow-y: auto; */
+    width: 100%;
+    color: #007bff;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+table.own-table .span-color{
+    color: #fff;
+    opacity: 0.55;
+}
+table.own-table thead{
+    border-bottom: solid 2px rgba(255,255,255,0.55);
+}
+
+
+table.own-table thead th {
+    background: linear-gradient(to top, #000000, #000000, #333333, #333333);
+    background-size: cover;
+    background-size: 100% 1.1px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+@media screen and (min-width:360px) and (max-width: 376px){
+    table.own-table{
+        font-size: 0.7em!important;
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 415px){
+    table.own-table{
+        font-size: 0.9em;
+        /* padding-left: 0.2em!important;
+        padding-right: 0.2em!important; */
+    }
+}
+
+@media screen and (min-width:360px) and (max-width: 431px){
+    .date-time{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .overflow-table{
+        padding-left: 2em;
+        padding-right: 2em;
+        font-size: 1.5em;
+    }
+}

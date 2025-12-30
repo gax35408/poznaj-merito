@@ -1,0 +1,58 @@
+.game-plan{
+    background-image: url('/plan.png');
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+    background-repeat: no-repeat;
+}
+.game-box{
+    opacity: 0.1;
+    background-color: rgba(173, 216, 230, 0.5);
+    /* color: white; */
+    /* aspect-ratio: 1; */
+}
+.game-box:hover{
+    opacity: 1;
+    cursor: pointer;
+    border: dashed 3px grey;
+}
+
+
+.dev .game-box{
+    opacity: 0.1;
+    border: solid 1px red;
+}
+.dev .game-box:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+canvas{
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width:900px){
+    #buttons{
+        display: none!important;
+    }
+}
+
+.pad2forMobile{
+    padding: 0!important;
+}
+
+@media screen and (max-width:900px){
+    .monitor{
+        background: #333!important;
+    }
+    .pad2forMobile{
+        padding: 0!important;
+    }
+    .h75Mobile{
+        height: 75%!important;
+    }
+    .btn-key:active{
+        opacity: 0.5;
+    }
+}
