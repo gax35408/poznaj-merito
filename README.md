@@ -1,4 +1,5 @@
-# poznaj-merito
+# Poznaj Merito
+Gra przeglądarkowa w ramach projektu inżynieryjnego.
 
 ## install packages:
 ```
