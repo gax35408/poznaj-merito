@@ -1,12 +1,12 @@
 # Poznaj Merito
 Gra przeglądarkowa w ramach projektu inżynieryjnego.
 
-## install packages:
+### Instalacja pakietów:
 ```
 npm i
 ```
 
-## run project in dev:
+### Uruchomienie w trybie deweloperskim:
 ```
 npm run dev
 ```
